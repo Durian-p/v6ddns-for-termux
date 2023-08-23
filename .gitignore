@@ -4,6 +4,9 @@ data.json
 private_key.pem
 public_key.pem
 
+# test file
+/test
+
 # IntelliJ project files
 .idea
 *.iml
