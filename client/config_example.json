@@ -1,0 +1,29 @@
+{
+  "myServer": "127.0.0.1:6677",
+  "privateKPath": "/data/data/com.termux/files/home/repo/v6ddns/private_key.pem",
+  "dnsInfos":
+  [
+    {
+      "dns_records": "cloudflare_dns_record_id_here",
+      "type": "AAAA",
+      "name": "your.domain.here",
+      "content": "",
+      "ttl": 120,
+      "proxied": false
+    },
+    {
+      "dns_records": "cloudflare_dns_record_id_here",
+      "type": "A",
+      "name": "your.domain.here",
+      "content": "",
+      "ttl": 120,
+      "proxied": true
+    }
+  ],
+  "accountInfo":
+  {
+        "email": "example@gmail.com",
+        "zones": "zone_id_here",
+        "api": "api_key_here"
+    }
+}
